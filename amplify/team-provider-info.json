@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cbpos-dev-100512-authRole",
+      "UnauthRoleArn": "arn:aws:iam::233679213002:role/amplify-cbpos-dev-100512-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::233679213002:role/amplify-cbpos-dev-100512-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-cbpos-dev-100512-deployment",
+      "UnauthRoleName": "amplify-cbpos-dev-100512-unauthRole",
+      "StackName": "amplify-cbpos-dev-100512",
+      "StackId": "arn:aws:cloudformation:eu-north-1:233679213002:stack/amplify-cbpos-dev-100512/ca12f980-c2be-11ee-a021-06000f3d951f",
+      "AmplifyAppId": "d1tzkf7ynuf0gb"
+    },
+    "categories": {
+      "auth": {
+        "cbposfa48b263": {}
+      }
+    }
+  }
+}
