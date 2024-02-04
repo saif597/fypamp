@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cbpos-dev-100512-authRole",
+      "UnauthRoleArn": "arn:aws:iam::233679213002:role/amplify-cbpos-dev-100512-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::233679213002:role/amplify-cbpos-dev-100512-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-cbpos-dev-100512-deployment",
+      "UnauthRoleName": "amplify-cbpos-dev-100512-unauthRole",
+      "StackName": "amplify-cbpos-dev-100512",
+      "StackId": "arn:aws:cloudformation:eu-north-1:233679213002:stack/amplify-cbpos-dev-100512/ca12f980-c2be-11ee-a021-06000f3d951f",
+      "AmplifyAppId": "d1tzkf7ynuf0gb"
+    }
+  },
+  "auth": {
+    "cbposfa48b263": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-cbpos-dev-100512-deployment/amplify-cfn-templates/auth/cbposfa48b263-cloudformation-template.json",
+        "logicalId": "authcbposfa48b263"
+      },
+      "lastPushTimeStamp": "2024-02-03T18:34:56.205Z",
+      "output": {
+        "UserPoolId": "eu-north-1_oLpfnqBJi",
+        "AppClientIDWeb": "163sa8tgbtdj5p9frfn5a6qg3q",
+        "AppClientID": "3v2g6fgd4btu088kis6qt7igqu",
+        "IdentityPoolId": "eu-north-1:88e9daf1-57ff-4f36-b27b-7b53c77113d1",
+        "UserPoolArn": "arn:aws:cognito-idp:eu-north-1:233679213002:userpool/eu-north-1_oLpfnqBJi",
+        "IdentityPoolName": "cbposfa48b263_identitypool_fa48b263__dev",
+        "UserPoolName": "cbposfa48b263_userpool_fa48b263"
+      },
+      "lastPushDirHash": "zqhTnRdVVnPql3qgonvw1IuYWy4="
+    }
+  }
+}
